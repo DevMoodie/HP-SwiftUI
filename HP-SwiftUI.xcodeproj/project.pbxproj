@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59EFBB5B2AEF9CEF002F46CA /* HP_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EFBB5A2AEF9CEF002F46CA /* HP_SwiftUIApp.swift */; };
+		59EFBB5D2AEF9CEF002F46CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EFBB5C2AEF9CEF002F46CA /* ContentView.swift */; };
+		59EFBB612AEF9CF1002F46CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59EFBB602AEF9CF1002F46CA /* Assets.xcassets */; };
+		59EFBB642AEF9CF1002F46CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59EFBB632AEF9CF1002F46CA /* Preview Assets.xcassets */; };
+		59EFBB6E2AEF9CF1002F46CA /* HP_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EFBB6D2AEF9CF1002F46CA /* HP_SwiftUITests.swift */; };
+		59EFBB782AEF9CF1002F46CA /* HP_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EFBB772AEF9CF1002F46CA /* HP_SwiftUIUITests.swift */; };
+		59EFBB7A2AEF9CF1002F46CA /* HP_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EFBB792AEF9CF1002F46CA /* HP_SwiftUIUITestsLaunchTests.swift */; };
+		59EFBB8A2AEFA23C002F46CA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EFBB892AEFA23C002F46CA /* NetworkManager.swift */; };
+		59EFBB8D2AEFA282002F46CA /* NetworkManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EFBB8C2AEFA282002F46CA /* NetworkManagerProtocol.swift */; };
+		59EFBB8F2AEFA2D4002F46CA /* HPCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EFBB8E2AEFA2D4002F46CA /* HPCharacter.swift */; };
+		59EFBB912AEFA323002F46CA /* Wand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EFBB902AEFA323002F46CA /* Wand.swift */; };
+		59EFBB932AEFA378002F46CA /* Spell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EFBB922AEFA378002F46CA /* Spell.swift */; };
+		59EFBB952AEFABDD002F46CA /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EFBB942AEFABDD002F46CA /* ImageCacheManager.swift */; };
+		59EFBB972AEFABF9002F46CA /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EFBB962AEFABF9002F46CA /* StorageManager.swift */; };
+		59EFBB992AEFAC14002F46CA /* StorageManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EFBB982AEFAC14002F46CA /* StorageManagerProtocol.swift */; };
+		59EFBB9B2AEFAC4A002F46CA /* CharactersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EFBB9A2AEFAC4A002F46CA /* CharactersView.swift */; };
+		59EFBB9E2AEFAC62002F46CA /* CharactersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EFBB9D2AEFAC62002F46CA /* CharactersViewModel.swift */; };
+		59EFBBA12AEFAFFE002F46CA /* LUMOS.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 59EFBBA02AEFAFFE002F46CA /* LUMOS.TTF */; };
+		59EFBBA32AEFB058002F46CA /* HARRYP__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 59EFBBA22AEFB058002F46CA /* HARRYP__.TTF */; };
+		59EFBBA62AEFB660002F46CA /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EFBBA52AEFB660002F46CA /* MainMenuView.swift */; };
+		59EFBBA82AEFB720002F46CA /* SpellsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EFBBA72AEFB720002F46CA /* SpellsView.swift */; };
+		59EFBBAA2AEFB73A002F46CA /* SpellsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EFBBA92AEFB73A002F46CA /* SpellsViewModel.swift */; };
+		59EFBBAD2AEFC095002F46CA /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 59EFBBAC2AEFC095002F46CA /* SDWebImageSwiftUI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59EFBB6A2AEF9CF1002F46CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59EFBB4F2AEF9CEF002F46CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59EFBB562AEF9CEF002F46CA;
+			remoteInfo = "HP-SwiftUI";
+		};
+		59EFBB742AEF9CF1002F46CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59EFBB4F2AEF9CEF002F46CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59EFBB562AEF9CEF002F46CA;
+			remoteInfo = "HP-SwiftUI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59EFBB572AEF9CEF002F46CA /* HP-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HP-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59EFBB5A2AEF9CEF002F46CA /* HP_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HP_SwiftUIApp.swift; sourceTree = "<group>"; };
+		59EFBB5C2AEF9CEF002F46CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		59EFBB602AEF9CF1002F46CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59EFBB632AEF9CF1002F46CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		59EFBB692AEF9CF1002F46CA /* HP-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HP-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59EFBB6D2AEF9CF1002F46CA /* HP_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HP_SwiftUITests.swift; sourceTree = "<group>"; };
+		59EFBB732AEF9CF1002F46CA /* HP-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HP-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59EFBB772AEF9CF1002F46CA /* HP_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HP_SwiftUIUITests.swift; sourceTree = "<group>"; };
+		59EFBB792AEF9CF1002F46CA /* HP_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HP_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		59EFBB892AEFA23C002F46CA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		59EFBB8C2AEFA282002F46CA /* NetworkManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerProtocol.swift; sourceTree = "<group>"; };
+		59EFBB8E2AEFA2D4002F46CA /* HPCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPCharacter.swift; sourceTree = "<group>"; };
+		59EFBB902AEFA323002F46CA /* Wand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wand.swift; sourceTree = "<group>"; };
+		59EFBB922AEFA378002F46CA /* Spell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spell.swift; sourceTree = "<group>"; };
+		59EFBB942AEFABDD002F46CA /* ImageCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheManager.swift; sourceTree = "<group>"; };
+		59EFBB962AEFABF9002F46CA /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		59EFBB982AEFAC14002F46CA /* StorageManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManagerProtocol.swift; sourceTree = "<group>"; };
+		59EFBB9A2AEFAC4A002F46CA /* CharactersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersView.swift; sourceTree = "<group>"; };
+		59EFBB9D2AEFAC62002F46CA /* CharactersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewModel.swift; sourceTree = "<group>"; };
+		59EFBBA02AEFAFFE002F46CA /* LUMOS.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = LUMOS.TTF; sourceTree = "<group>"; };
+		59EFBBA22AEFB058002F46CA /* HARRYP__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = HARRYP__.TTF; sourceTree = "<group>"; };
+		59EFBBA42AEFB0F6002F46CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		59EFBBA52AEFB660002F46CA /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		59EFBBA72AEFB720002F46CA /* SpellsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellsView.swift; sourceTree = "<group>"; };
+		59EFBBA92AEFB73A002F46CA /* SpellsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellsViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59EFBB542AEF9CEF002F46CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59EFBBAD2AEFC095002F46CA /* SDWebImageSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59EFBB662AEF9CF1002F46CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59EFBB702AEF9CF1002F46CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59EFBB4E2AEF9CEF002F46CA = {
+			isa = PBXGroup;
+			children = (
+				59EFBB592AEF9CEF002F46CA /* HP-SwiftUI */,
+				59EFBB6C2AEF9CF1002F46CA /* HP-SwiftUITests */,
+				59EFBB762AEF9CF1002F46CA /* HP-SwiftUIUITests */,
+				59EFBB582AEF9CEF002F46CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59EFBB582AEF9CEF002F46CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59EFBB572AEF9CEF002F46CA /* HP-SwiftUI.app */,
+				59EFBB692AEF9CF1002F46CA /* HP-SwiftUITests.xctest */,
+				59EFBB732AEF9CF1002F46CA /* HP-SwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59EFBB592AEF9CEF002F46CA /* HP-SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				59EFBB5A2AEF9CEF002F46CA /* HP_SwiftUIApp.swift */,
+				59EFBB8B2AEFA266002F46CA /* Protocols */,
+				59EFBB862AEF9D78002F46CA /* Views */,
+				59EFBB882AEF9D85002F46CA /* Models */,
+				59EFBB9C2AEFAC53002F46CA /* ViewModels */,
+				59EFBB872AEF9D7F002F46CA /* Service */,
+				59EFBB9F2AEFAFF0002F46CA /* Fonts */,
+				59EFBBA42AEFB0F6002F46CA /* Info.plist */,
+				59EFBB602AEF9CF1002F46CA /* Assets.xcassets */,
+				59EFBB622AEF9CF1002F46CA /* Preview Content */,
+			);
+			path = "HP-SwiftUI";
+			sourceTree = "<group>";
+		};
+		59EFBB622AEF9CF1002F46CA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				59EFBB632AEF9CF1002F46CA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		59EFBB6C2AEF9CF1002F46CA /* HP-SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59EFBB6D2AEF9CF1002F46CA /* HP_SwiftUITests.swift */,
+			);
+			path = "HP-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		59EFBB762AEF9CF1002F46CA /* HP-SwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59EFBB772AEF9CF1002F46CA /* HP_SwiftUIUITests.swift */,
+				59EFBB792AEF9CF1002F46CA /* HP_SwiftUIUITestsLaunchTests.swift */,
+			);
+			path = "HP-SwiftUIUITests";
+			sourceTree = "<group>";
+		};
+		59EFBB862AEF9D78002F46CA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				59EFBB5C2AEF9CEF002F46CA /* ContentView.swift */,
+				59EFBBA52AEFB660002F46CA /* MainMenuView.swift */,
+				59EFBB9A2AEFAC4A002F46CA /* CharactersView.swift */,
+				59EFBBA72AEFB720002F46CA /* SpellsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		59EFBB872AEF9D7F002F46CA /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				59EFBB892AEFA23C002F46CA /* NetworkManager.swift */,
+				59EFBB942AEFABDD002F46CA /* ImageCacheManager.swift */,
+				59EFBB962AEFABF9002F46CA /* StorageManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		59EFBB882AEF9D85002F46CA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				59EFBB8E2AEFA2D4002F46CA /* HPCharacter.swift */,
+				59EFBB922AEFA378002F46CA /* Spell.swift */,
+				59EFBB902AEFA323002F46CA /* Wand.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		59EFBB8B2AEFA266002F46CA /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				59EFBB8C2AEFA282002F46CA /* NetworkManagerProtocol.swift */,
+				59EFBB982AEFAC14002F46CA /* StorageManagerProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		59EFBB9C2AEFAC53002F46CA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				59EFBB9D2AEFAC62002F46CA /* CharactersViewModel.swift */,
+				59EFBBA92AEFB73A002F46CA /* SpellsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		59EFBB9F2AEFAFF0002F46CA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				59EFBBA22AEFB058002F46CA /* HARRYP__.TTF */,
+				59EFBBA02AEFAFFE002F46CA /* LUMOS.TTF */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59EFBB562AEF9CEF002F46CA /* HP-SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59EFBB7D2AEF9CF1002F46CA /* Build configuration list for PBXNativeTarget "HP-SwiftUI" */;
+			buildPhases = (
+				59EFBB532AEF9CEF002F46CA /* Sources */,
+				59EFBB542AEF9CEF002F46CA /* Frameworks */,
+				59EFBB552AEF9CEF002F46CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HP-SwiftUI";
+			packageProductDependencies = (
+				59EFBBAC2AEFC095002F46CA /* SDWebImageSwiftUI */,
+			);
+			productName = "HP-SwiftUI";
+			productReference = 59EFBB572AEF9CEF002F46CA /* HP-SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59EFBB682AEF9CF1002F46CA /* HP-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59EFBB802AEF9CF1002F46CA /* Build configuration list for PBXNativeTarget "HP-SwiftUITests" */;
+			buildPhases = (
+				59EFBB652AEF9CF1002F46CA /* Sources */,
+				59EFBB662AEF9CF1002F46CA /* Frameworks */,
+				59EFBB672AEF9CF1002F46CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59EFBB6B2AEF9CF1002F46CA /* PBXTargetDependency */,
+			);
+			name = "HP-SwiftUITests";
+			productName = "HP-SwiftUITests";
+			productReference = 59EFBB692AEF9CF1002F46CA /* HP-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59EFBB722AEF9CF1002F46CA /* HP-SwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59EFBB832AEF9CF1002F46CA /* Build configuration list for PBXNativeTarget "HP-SwiftUIUITests" */;
+			buildPhases = (
+				59EFBB6F2AEF9CF1002F46CA /* Sources */,
+				59EFBB702AEF9CF1002F46CA /* Frameworks */,
+				59EFBB712AEF9CF1002F46CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59EFBB752AEF9CF1002F46CA /* PBXTargetDependency */,
+			);
+			name = "HP-SwiftUIUITests";
+			productName = "HP-SwiftUIUITests";
+			productReference = 59EFBB732AEF9CF1002F46CA /* HP-SwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59EFBB4F2AEF9CEF002F46CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					59EFBB562AEF9CEF002F46CA = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					59EFBB682AEF9CF1002F46CA = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 59EFBB562AEF9CEF002F46CA;
+					};
+					59EFBB722AEF9CF1002F46CA = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 59EFBB562AEF9CEF002F46CA;
+					};
+				};
+			};
+			buildConfigurationList = 59EFBB522AEF9CEF002F46CA /* Build configuration list for PBXProject "HP-SwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59EFBB4E2AEF9CEF002F46CA;
+			packageReferences = (
+				59EFBBAB2AEFC095002F46CA /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = 59EFBB582AEF9CEF002F46CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59EFBB562AEF9CEF002F46CA /* HP-SwiftUI */,
+				59EFBB682AEF9CF1002F46CA /* HP-SwiftUITests */,
+				59EFBB722AEF9CF1002F46CA /* HP-SwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59EFBB552AEF9CEF002F46CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59EFBBA32AEFB058002F46CA /* HARRYP__.TTF in Resources */,
+				59EFBBA12AEFAFFE002F46CA /* LUMOS.TTF in Resources */,
+				59EFBB642AEF9CF1002F46CA /* Preview Assets.xcassets in Resources */,
+				59EFBB612AEF9CF1002F46CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59EFBB672AEF9CF1002F46CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59EFBB712AEF9CF1002F46CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59EFBB532AEF9CEF002F46CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59EFBB9E2AEFAC62002F46CA /* CharactersViewModel.swift in Sources */,
+				59EFBB932AEFA378002F46CA /* Spell.swift in Sources */,
+				59EFBB8A2AEFA23C002F46CA /* NetworkManager.swift in Sources */,
+				59EFBB912AEFA323002F46CA /* Wand.swift in Sources */,
+				59EFBB992AEFAC14002F46CA /* StorageManagerProtocol.swift in Sources */,
+				59EFBB972AEFABF9002F46CA /* StorageManager.swift in Sources */,
+				59EFBB5D2AEF9CEF002F46CA /* ContentView.swift in Sources */,
+				59EFBB9B2AEFAC4A002F46CA /* CharactersView.swift in Sources */,
+				59EFBB952AEFABDD002F46CA /* ImageCacheManager.swift in Sources */,
+				59EFBBA62AEFB660002F46CA /* MainMenuView.swift in Sources */,
+				59EFBBAA2AEFB73A002F46CA /* SpellsViewModel.swift in Sources */,
+				59EFBB8F2AEFA2D4002F46CA /* HPCharacter.swift in Sources */,
+				59EFBBA82AEFB720002F46CA /* SpellsView.swift in Sources */,
+				59EFBB8D2AEFA282002F46CA /* NetworkManagerProtocol.swift in Sources */,
+				59EFBB5B2AEF9CEF002F46CA /* HP_SwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59EFBB652AEF9CF1002F46CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59EFBB6E2AEF9CF1002F46CA /* HP_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59EFBB6F2AEF9CF1002F46CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59EFBB7A2AEF9CF1002F46CA /* HP_SwiftUIUITestsLaunchTests.swift in Sources */,
+				59EFBB782AEF9CF1002F46CA /* HP_SwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59EFBB6B2AEF9CF1002F46CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59EFBB562AEF9CEF002F46CA /* HP-SwiftUI */;
+			targetProxy = 59EFBB6A2AEF9CF1002F46CA /* PBXContainerItemProxy */;
+		};
+		59EFBB752AEF9CF1002F46CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59EFBB562AEF9CEF002F46CA /* HP-SwiftUI */;
+			targetProxy = 59EFBB742AEF9CF1002F46CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		59EFBB7B2AEF9CF1002F46CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59EFBB7C2AEF9CF1002F46CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59EFBB7E2AEF9CF1002F46CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HP-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 4LVL647LQT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HP-SwiftUI/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deenod.HP-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59EFBB7F2AEF9CF1002F46CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HP-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 4LVL647LQT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HP-SwiftUI/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deenod.HP-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		59EFBB812AEF9CF1002F46CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4LVL647LQT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deenod.HP-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HP-SwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HP-SwiftUI";
+			};
+			name = Debug;
+		};
+		59EFBB822AEF9CF1002F46CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4LVL647LQT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deenod.HP-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HP-SwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HP-SwiftUI";
+			};
+			name = Release;
+		};
+		59EFBB842AEF9CF1002F46CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4LVL647LQT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deenod.HP-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HP-SwiftUI";
+			};
+			name = Debug;
+		};
+		59EFBB852AEF9CF1002F46CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4LVL647LQT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deenod.HP-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HP-SwiftUI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59EFBB522AEF9CEF002F46CA /* Build configuration list for PBXProject "HP-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59EFBB7B2AEF9CF1002F46CA /* Debug */,
+				59EFBB7C2AEF9CF1002F46CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59EFBB7D2AEF9CF1002F46CA /* Build configuration list for PBXNativeTarget "HP-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59EFBB7E2AEF9CF1002F46CA /* Debug */,
+				59EFBB7F2AEF9CF1002F46CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59EFBB802AEF9CF1002F46CA /* Build configuration list for PBXNativeTarget "HP-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59EFBB812AEF9CF1002F46CA /* Debug */,
+				59EFBB822AEF9CF1002F46CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59EFBB832AEF9CF1002F46CA /* Build configuration list for PBXNativeTarget "HP-SwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59EFBB842AEF9CF1002F46CA /* Debug */,
+				59EFBB852AEF9CF1002F46CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		59EFBBAB2AEFC095002F46CA /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		59EFBBAC2AEFC095002F46CA /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 59EFBBAB2AEFC095002F46CA /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 59EFBB4F2AEF9CEF002F46CA /* Project object */;
+}
